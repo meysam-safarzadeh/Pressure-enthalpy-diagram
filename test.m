@@ -1,0 +1,6 @@
+clc; clear; close all;
+T = [200];
+thermo_diagram_plot('logph',T,'YLim',[10^-1 10^3], ...
+'WetSteamArea','on','Legend','off');
+thermo_diagram_plot('logph',T,'YLim',[10^-1 10^3], ...
+'VaporFractions','on','Legend','off');
